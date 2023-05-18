@@ -1,0 +1,33 @@
+total 52
+dr-xr-xr-x.  24 root   root  4096 Aug 22 10:45 .
+dr-xr-xr-x.  24 root   root  4096 Aug 22 10:45 ..
+-rwxr-xr-x.   1 root   root   928 Aug 22 10:43 adjoin
+-rw-r--r--    1 root   root     0 Aug 22 10:45 .autorelabel
+lrwxrwxrwx.   1 root   root     7 Oct 10  2021 bin -> usr/bin
+dr-xr-xr-x.   6 root   root  4096 Aug 22 10:45 boot
+drwxr-xr-x   12 stcmgr cmc   4096 Sep  1 09:15 CMC
+lrwxrwxrwx.   1 root   root     5 Aug 22 10:44 cs -> /eecs
+lrwxrwxrwx.   1 root   root     5 Aug 22 10:44 cse -> /eecs
+drwxr-xr-x   21 root   root  3380 Sep  1 03:54 dev
+drwxr-xr-x.   8 root   root   113 Aug 22 10:45 eecs
+drwxr-xr-x. 182 root   root 12288 Sep 14 03:53 etc
+drwxr-xr-x.   3 root   root    18 Aug 22 10:45 home
+lrwxrwxrwx.   1 root   root     7 Oct 10  2021 lib -> usr/lib
+lrwxrwxrwx.   1 root   root     9 Oct 10  2021 lib64 -> usr/lib64
+drwxr-xr-x.   4 root   root    30 Aug 22 10:43 local
+drwxr-xr-x.   2 root   root     6 Oct 10  2021 media
+drwxr-xr-x.   2 root   root     6 Oct 10  2021 mnt
+drwx------.   2 root   root     6 Aug 22 10:44 obj
+drwxr-xr-x.   3 root   root    37 Aug 22 10:45 opt
+drwxr-xr-x   16 root   root  4096 Sep  1 03:53 pkgcache
+dr-xr-xr-x  353 root   root     0 Aug 22 15:49 proc
+dr-xr-x---.   5 root   root   178 Aug 22 10:46 root
+drwxr-xr-x   50 root   root  1540 Sep 14 10:27 run
+lrwxrwxrwx.   1 root   root     8 Oct 10  2021 sbin -> usr/sbin
+drwxr-xr-x.   2 root   root     6 Oct 10  2021 srv
+dr-xr-xr-x   13 root   root     0 Aug 22 15:49 sys
+drwxrwxrwt.  26 root   root  4096 Sep 14 10:55 tmp
+drwxr-xr-x.  13 root   root   158 Aug 22 10:31 usr
+drwxr-xr-x.  25 root   root  4096 Aug 22 10:46 var
+drwxr-xr-x.  83 root   root  4096 Sep 13 13:11 xconf
+drwxr-xr-x.  15 root   root   174 Jan 31  2022 xsys

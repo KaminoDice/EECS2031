@@ -1,0 +1,15 @@
+Script started on 2023-05-15 18:40:02-04:00
+red 6 % ls ~
+[0m[38;5;33m2031[0m     [38;5;33mDocuments[0m  [38;5;33mFiraCode[0m  [38;5;33mmail[0m   myscript     [38;5;33mneofetch[0m       output_homeDir  [38;5;33mPictures[0m    [38;5;33mprocessing.tmp[0m  [38;5;33msketchbook[0m  [38;5;33mTemplates[0m  [38;5;33mVideos[0m
+[38;5;33mDesktop[0m  [38;5;33mDownloads[0m  [38;5;33m__MACOSX[0m  [38;5;33mMusic[0m  [38;5;40mmyscript.sh[0m  [38;5;40mnixinstall.sh[0m  output_rootDir  [38;5;33mProcessing[0m  [38;5;33mPublic[0m          [38;5;33msmallab[0m     [38;5;33muser[0m       [38;5;33mwww[0m
+red 7 % grep -lr ""A"" |~|| || wc -l
+3166
+red 8 % tail -n1 t[K[K[K[K[K[K[K[Kecho ""T"h"i"s" "i"s" "a" "t"e"x"t" "s"t"r"e"a"m" "f"i"l"e" "w"h"i"c"h" "c"o"n"t"a"i"n"[1@\[1@n which co[Pwhich contains" "5"-"1"0" "w"o"r"d"."" ?[K> t1.txt
+red 9 % tail -n1 t1.txt | wc -l
+1
+red 10 % head -c 1 tq.t[K[K[K1.txt | xxd -b
+00000000: 01010100                                               T
+red 11 % e[Kred 11 % exit
+exit
+
+Script done on 2023-05-15 18:41:55-04:00

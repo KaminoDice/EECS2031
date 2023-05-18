@@ -1,0 +1,7 @@
+This is
+a Text Stream File
+which
+should
+have
+five-to-ten
+words.
