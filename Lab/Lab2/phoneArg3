@@ -1,0 +1,10 @@
+for i in $(seq 2 $#); do
+    grep -i "$i" $1
+done
+
+file=$1
+shift 1
+
+for i in "$@"; do
+    grep -i "$i" $file
+done
