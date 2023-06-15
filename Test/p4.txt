@@ -1,0 +1,6 @@
+This line should be deleted
+ABABAB pattern is present here
+It's raining outside
+The rain is heavy today
+ABABAB pattern is also present here rain you
+Another line to be deleted
