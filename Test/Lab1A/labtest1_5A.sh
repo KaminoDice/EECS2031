@@ -12,7 +12,8 @@ echo "lower_bound: $lower_bound"
 echo "upper_bound: $upper_bound"
 
 # Read the records from the file (assuming the file is named "records.txt")
-while IFS=$'\t\n' read -r product_name product_id inventory; do
+while IFS=$'\t\n' read -r product_name product_id inventory || [ -n "$product_name" ]; do
+  #echo "product_name: $product_name: product_id: $product_id"
   if ((inventory >= lower_bound && inventory <= upper_bound)); then
     echo "product_name: $product_name: product_id: $product_id"
   fi
