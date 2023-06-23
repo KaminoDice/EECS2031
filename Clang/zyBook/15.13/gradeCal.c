@@ -25,6 +25,14 @@ int main() {
 
       (fnScr < FINAL_MAX) ? (finalex = fnScr / FINAL_MAX * 100) : (finalex = 100.0);
       printf("Final Exam: %.1f%%\n", finalex);
+
+      double avg;
+      if (strcmp(stuStat, "UG") == 0) avg = 0.2 * (homework + quiz) + 0.3 * (midex + finalex);
+      if (strcmp(stuStat, "G") ==  0) avg = 0.15 * homework + 0.05 * quiz + 0.35 * midex + 0.45 * finalex;
+      if (strcmp(stuStat, "DL") == 0) avg = 0.05 * (homework + quiz) + 0.4 * midex + 0.5 * finalex;
+
+      printf("%s average: %.1f%%\n", stuStat, avg);
+      if (avg < 60) printf("Course grade: A\n");
    } else {
       printf("Error: student status must be UG, G or DL\n");
    }
