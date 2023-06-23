@@ -32,7 +32,19 @@ int main() {
       if (strcmp(stuStat, "DL") == 0) avg = 0.05 * (homework + quiz) + 0.4 * midex + 0.5 * finalex;
 
       printf("%s average: %.1f%%\n", stuStat, avg);
-      if (avg < 60) printf("Course grade: A\n");
+      
+      if (avg >= 90) {
+         printf("Course grade: A\n");
+      } else if (avg >= 80) {
+         printf("Course grade: B\n");
+      } else if (avg >= 70) {
+         printf("Course grade: C\n");
+      } else if (avg >= 60) {
+         printf("Course grade: D\n");
+      } else {
+         printf("Course grade: F\n");
+      }
+      
    } else {
       printf("Error: student status must be UG, G or DL\n");
    }
