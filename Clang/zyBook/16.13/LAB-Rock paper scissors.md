@@ -1,4 +1,4 @@
-16.13 LAB*: Program: Rock paper scissors
+# 16.13 LAB*: Program: Rock paper scissors
 
 **Program Specifications** Write a program to play an automated game of Rock, Paper, Scissors. Two players make one of three hand signals at the same time. Hand signals represent a rock, a piece of paper, or a pair of scissors. Each combination results in a win for one of the players. Rock crushes scissors, paper covers rock, and scissors cut paper. A tie occurs if both players make the same signal. Use a random number generator of 0, 1, or 2 to represent the three signals.
 
