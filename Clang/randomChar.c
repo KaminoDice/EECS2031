@@ -10,6 +10,6 @@ int main() {
     for (int i = 1; i <= TIMES; ++i) {
         int value = rand();
         int mod3value= value % 3;
-        printf("[%d]: orign random generate is %d and mod3 is %d", i, value, mod3value);
+        printf("[%d]: \norign random generate is: %d \nand mod3 is: %d\n\n", i, value, mod3value);
     }
 }
