@@ -1,0 +1,4 @@
+The C Programming Language!0-13-110370-9!Brian Kernighan!Dennis Ritchie!44
+Microcotrollers!0-13-123456!M Mazidi!22
+Computer architecture!0-12-34567!Patterson!Henessey!12
+bash Programming!2-10-234567!Bash himseld! Anotherbash!33
