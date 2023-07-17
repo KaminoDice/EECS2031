@@ -11,21 +11,7 @@ if [[ $1 == "-num" ]]; then
         fi
     done < "$BFILE"
 elif [[ $1 == "-nobook" ]]; then 
-    while IFS='!' read -r co_num co_name isbn ro; do
-        if [[ $ro == "R" ]]; then
-            ct=$(grep -c "$co_num" "$CFILE")
-            if  [[ $ct -lt 1 ]]; then
-                echo "$co_name"
-            fi
-        fi
-    done < "$CFILE"
+    awk -F '!' '($4 == "O") { option[$1] = 1 } ($4 == "R") { required[$1] = 1 } END { for (course in option) { if (!(course in required)) { print course } } }' "$CFILE"
 elif [[ $1 == "-toomuch" ]]; then
-    while IFS='!' read -r co_num co_name isbn ro; do
-        if [[ $ro == "R" ]]; then
-            ct=$(grep -c "$co_num" "$CFILE")
-            if  [[ $ct -gt 2 ]]; then
-                echo "$co_name"
-            fi
-        fi
-    done < "$CFILE"
+    awk -F '!' '$4 == "R" { count[$1]++ } END { for (course in count) { if (count[course] > 2x) { print course } } }' "$CFILE"
 fi

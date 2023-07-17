@@ -2,10 +2,11 @@ EECS2032!Introduction to Embedded Systems!0-13-110370-1!R
 EECS2032!Introduction to Embedded Systems1!0-13-110370-2!R
 EECS2032!Introduction to Embedded Systems2!0-13-123456!O
 EECS2032!Introduction to Embedded Systems3!2-10-234563!R
-EECS4201!Computer Architecture the quantatative approach!0-12-34567!O
+EECS4201!Computer Architecture the quantatative approach!0-12-34567!R
 EECS2032!Introduction to Embedded Systems4!2-10-23434!R
 EECS4412!eyworks!werty!R
 EECS1111!Python!676767!R
 EECS4201!Computer Architecture the quantatative approach1!0-12-345671!R
 EECS4201!Computer Architecture the quantatative approach2!0-12-345672!R
+EECS4202!Computer Architecture the quantatative approach2!0-12-345672!O
 EECS4202!Computer Architecture the quantatative approach2!0-12-345672!O
