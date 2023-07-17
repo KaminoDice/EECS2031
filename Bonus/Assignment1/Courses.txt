@@ -8,4 +8,4 @@ EECS4412!eyworks!werty!R
 EECS1111!Python!676767!R
 EECS4201!Computer Architecture the quantatative approach1!0-12-345671!R
 EECS4201!Computer Architecture the quantatative approach2!0-12-345672!R
-EECS4202!Computer Architecture the quantatative approach2!0-12-345672!R
+EECS4202!Computer Architecture the quantatative approach2!0-12-345672!O

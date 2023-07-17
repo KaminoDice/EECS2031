@@ -12,8 +12,11 @@ if [[ $1 == "-num" ]]; then
     done < "$BFILE"
 elif [[ $1 == "-nobook" ]]; then 
     while IFS='!' read -r co_num co_name isbn ro; do
-        if [[ $ro == "O" ]]; then
-            echo "$co_num"
+        if [[ $ro == "R" ]]; then
+            ct=$(grep -c "$co_num" "$CFILE")
+            if  [[ $ct -lt 1 ]]; then
+                echo "$co_name"
+            fi
         fi
     done < "$CFILE"
 elif [[ $1 == "-toomuch" ]]; then
