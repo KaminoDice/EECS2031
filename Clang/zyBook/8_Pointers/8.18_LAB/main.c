@@ -53,16 +53,34 @@ int IntNode_Length(IntNode* firstNode) {
 // Return the Nth element of the list. First node is 1.
 IntNode* IntNode_GetNth(IntNode* firstNode, int pos) {
    /* Type your code here. */
+   IntNode* posNode = firstNode;
+   for (int i = 1; i < pos ; ++i) {
+      posNode = IntNode_GetNext(posNode);
+   }
+   return posNode;
+
 }
 
 // Print the entire list starting at firstNode
 void IntNode_PrintList(IntNode* firstNode) {
    /* Type your code here. */
+   IntNode* curNode = firstNode;
+   for (int i = 0; i < IntNode_Length(firstNode); ++i) {
+      IntNode_PrintNodeData(curNode);
+      curNode = IntNode_GetNext(curNode);
+   }
 }
 
 // Sum the numbers in the list
 int IntNode_SumList(IntNode* firstNode) {
    /* Type your code here. */
+   int sum = 0;
+   IntNode* thisNode = firstNode;
+   for (int i = 1; i < IntNode_Length(firstNode) + 1; ++i) {
+      thisNode = IntNode_GetNth(firstNode, i);
+      sum += thisNode->dataVal;
+   }
+   return sum;
 }
 
 int main(void) {
